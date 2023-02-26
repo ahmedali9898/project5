@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Almarai", sans-serif;
+}
+
+@font-face {
+  font-family: "Almarai";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/almarai-v5-arabic-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/almarai-v5-arabic-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/almarai-v5-arabic-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/almarai-v5-arabic-regular.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/almarai-v5-arabic-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/almarai-v5-arabic-regular.svg#Almarai") format("svg"); /* Legacy iOS */
+}
+
+/* @tailwind base; */
+@tailwind components;
+@tailwind utilities;
+
